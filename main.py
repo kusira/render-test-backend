@@ -30,3 +30,4 @@ async def process_data(user_data: UserData):
         "processed": True
     }
     return response
+
