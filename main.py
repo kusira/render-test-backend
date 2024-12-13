@@ -7,7 +7,7 @@ app = FastAPI()
 # CORS の設定
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # フロントエンドの URL
+    allow_origins=["http://localhost:3000", "https://render-test-frontend.vercel.app"],  # フロントエンドの URL
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
